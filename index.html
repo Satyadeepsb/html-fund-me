@@ -5,6 +5,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio,line-clamp"></script>
+    <script src="./index.js"></script>
   </head>
   <body>
     <div
@@ -32,6 +33,7 @@
               <button
                 id="connectButton"
                 type="button"
+                onclick="connect()"
                 class="inline-flex items-center rounded-md border border-transparent bg-green-600 px-4 py-2 text-sm font-medium text-white shadow-sm hover:bg-green-700 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2"
               >
                 Connect
@@ -82,7 +84,5 @@
         </form>
       </div>
     </div>
-
-    <!-- <script src="./index.js" type="module"></script> -->
   </body>
 </html>
