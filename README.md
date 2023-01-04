@@ -1,6 +1,6 @@
 # FundMe App
 <p align="center">
-    <img src="https://user-images.githubusercontent.com/25576872/210523458-58323d32-278f-44fa-9277-e18fb6192e1e.png">
+    <img src="https://github.com/Satyadeepsb/html-fund-me/blob/main/assets/app-view.png">
 </p>
 
 This is a minimalistic example what you can find in the [metamask docs](https://docs.metamask.io/guide/create-dapp.html#basic-action-part-1).
