@@ -22,7 +22,7 @@
                         Fund Me
                     </h2>
                 </div>
-                <form class="mt-8 space-y-6" action="#" method="POST">
+                <form class="mt-8 space-y-6">
                     <input type="hidden" name="remember" value="true" />
                     <div class="flex">
                         <div class="grow items-center">
@@ -60,7 +60,8 @@
                                 <input
                                     id="ethAmount"
                                     name="ethAmount"
-                                    type="text"
+                                    type="number"
+                                    min="0"
                                     required
                                     class="relative w-full appearance-none rounded-none rounded-b-md border border-gray-300 px-3 mr-5 py-2 text-gray-900 placeholder-gray-500 focus:z-10 focus:border-indigo-500 focus:outline-none focus:ring-indigo-500 sm:text-sm"
                                     placeholder="ETH Amount Ex - 0.1"
